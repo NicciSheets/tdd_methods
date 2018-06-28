@@ -15,7 +15,14 @@ def array_reject_method(original)
 	new_array << original
 end
 
-def returned_values_rejected()
+def returned_values_rejected(original)
+	empty = []
+	original.each_with_index do 
+		rejected = array_reject_method(original)
+		if original == false
+		p num = num
+		end
+		empty << num
+	end
+	empty
 end
-# def actual_reject_method(original)
-# end

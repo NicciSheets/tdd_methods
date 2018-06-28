@@ -16,9 +16,9 @@ class TestArrayTddMethods < Minitest::Test
     end
 
     def test_assert_returns_values_rejeted_as_true
-    	assert_equal([1, 2, 3, 4], returned_values_rejected())
+    	assert_equal([1, 2, 3, 4], returned_values_rejected([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
     end
-    
+
     # def test_assert_returns_only_elements_less_than_5_using_method
     # 	assert_equal([1, 2, 3, 4], actual_reject_method([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
     # end
