@@ -8,9 +8,9 @@ end
 def reject_without_method(test_values2)
 	arr = []
 	test_values2.each do |num|
-		if num < 3
+		if num < 3 #returns as true
 			num
-		else 
+		else  #returns as false, so we want those appended into returned array
 			arr << num
 		end
 	end
