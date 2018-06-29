@@ -1,6 +1,6 @@
 
 def reject_method(test_values)
-	p test_values.reject {|a| a < 3}
+	p test_values.reject {|a| a < 3} #the values in {} are called a block
 #explanation: 1 and 2 return as true in above block, so they are rejected from the final array; 
 #whereas 3, 4, 5, 6 return as false in above block and are returned
 end
