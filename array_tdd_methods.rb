@@ -5,6 +5,8 @@ def reject_method(test_values)
 #whereas 3, 4, 5, 6 return as false in above block and are returned
 end
 
+def reject_without_method(test_values2)
+end
 
 
 
