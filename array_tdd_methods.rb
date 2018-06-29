@@ -6,6 +6,15 @@ def reject_method(test_values)
 end
 
 def reject_without_method(test_values2)
+	arr = []
+	test_values2.each do |num|
+		if num < 3
+			num
+		else 
+			arr << num
+		end
+	end
+	arr
 end
 
 
