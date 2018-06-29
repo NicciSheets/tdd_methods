@@ -7,7 +7,7 @@ class TestStringTddMethods < Minitest::Test
 		assert_equal("Hello Nicci!", concat_method("Hello ", "Nicci!"))
 	end
 
-
+	
 
 
 end
