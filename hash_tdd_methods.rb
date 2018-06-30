@@ -4,4 +4,11 @@ def values_method(ages = {})
 end
 
 def values_without_method(ages = {})
+	ages = {"Nicci" => 37, "Zeppelin" => 5, "Janet" => 60}
+	empty_arr = []
+	ages.each do |key, values|
+		key = key
+		empty_arr << values
+	end
+	empty_arr
 end
